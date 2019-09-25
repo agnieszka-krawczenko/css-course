@@ -1,13 +1,37 @@
 header {
     top: 0;
     left: 0;
+    width: 100%;
+    background-color: grey;
 }
 
 header h1 {
     font-size: 32px;
 }
+h2 {
+    font-size: 30px;
+}
+
+#content-header {
+    font-size: 18px;
+    color: blue;
+}
 
 p {
-    font-size: 12px;
+    font-size: 20px;
     color: red;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+span {
+    display: block;
+    color: blue;
+}
+
+.deck {
+    color: aqua;
 }
