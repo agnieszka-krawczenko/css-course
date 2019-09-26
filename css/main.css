@@ -21,4 +21,6 @@ h2 {
 #main-content > p {
     color: blue;
 }
-
+#all-articles h2 + p {
+    color: green;
+}
