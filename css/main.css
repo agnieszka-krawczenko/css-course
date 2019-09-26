@@ -49,3 +49,11 @@ li:nth-child(odd) {
 li:nth-child(3n+1) {
     text-decoration: underline;
 }
+
+article:nth-of-type(2) {
+    background-color: gray;
+}
+
+article:nth-of-type(odd){
+    background-color: lightgray;
+}
