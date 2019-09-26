@@ -9,11 +9,11 @@ header h1 {
     font-size: 32px;
 }
 
-article p:first-child {
+article p:first-of-type {
     font-weight: bold;
 }
 
-article p:last-child {
+article p:last-of-type {
     color: red;
 }
 
@@ -32,4 +32,20 @@ a:hover {
 
 a:active {
     color: black;
+}
+
+li:nth-child(1), li:nth-child(7) {
+    font-weight: bold;
+}
+
+li:nth-child(even) {
+    background-color: gray;
+}
+
+li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+li:nth-child(3n+1) {
+    text-decoration: underline;
 }
