@@ -8,23 +8,28 @@ header {
 header h1 {
     font-size: 32px;
 }
-h2 {
-    font-size: 30px;
+
+article p:first-child {
+    font-weight: bold;
 }
 
-#content-header {
-    font-size: 18px;
-    color: blue;
+article p:last-child {
+    color: red;
 }
 
 
-#main-content > p {
-    color: blue;
-}
-#all-articles h2 + p {
-    color: green;
+a:link {
+    color:greenyellow;
 }
 
-span[class] {
-    color: violet;
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: black;
 }
