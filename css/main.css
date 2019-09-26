@@ -57,3 +57,15 @@ article:nth-of-type(2) {
 article:nth-of-type(odd){
     background-color: lightgray;
 }
+
+article {
+    font-size: 25px;
+}
+
+article h2 {
+    font-size: 1,5em;
+}
+
+article p {
+    font-size: 80%;
+}
